@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="animacion.PagFragmento"
+              BackgroundColor="LightGray"
+             Title="Nuevo Fragmento">
+
+    <StackLayout Padding="20">
+        <Button Text="Agregar Fragmento"
+                Clicked="fragm_Clicked"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                FontSize="18"
+                WidthRequest="200"
+                HeightRequest="50" />
+
+        <ScrollView>
+            <StackLayout x:Name="fragmentContainer" />
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

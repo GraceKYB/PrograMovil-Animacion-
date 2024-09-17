@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms"
+             x:Class="animacion.MainPage"
+             BackgroundColor="LightGray"
+             Title="Grafico y Multimedia">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20">
+            <Label Text="Gráfico de Barra y Control de Audio"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="DarkSlateBlue" />
+
+            <Frame BorderColor="DarkGray"
+                   CornerRadius="10"
+                   Padding="10"
+                   HasShadow="True">
+                <oxy:PlotView x:Name="plotview" HeightRequest="300" VerticalOptions="CenterAndExpand" />
+            </Frame>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="20">
+                <Button x:Name="btnPlay"
+                        Text="Play"
+                        Clicked="Play_Clicked"
+                        BackgroundColor="#007AFF"
+                        TextColor="White"
+                        CornerRadius="20"
+                        WidthRequest="100"
+                        HeightRequest="50" />
+                <Button x:Name="btnPause"
+                        Text="Pausa"
+                        Clicked="Pause_Clicked"
+                        BackgroundColor="MediumOrchid"
+                        TextColor="Black"
+                        CornerRadius="20"
+                        WidthRequest="100"
+                        HeightRequest="50"
+                        IsEnabled="False" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="animacion.Inicio"
+             BackgroundColor="LightGray"
+             Title="INICIO">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="Margin" Value="0,0,0,10" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="BackgroundColor" Value="#007AFF" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="30" Spacing="20">
+        <Button Text="Animación" Clicked="Animacion_Clicked"/>
+        <Button Text="Gráfico y Multimedia" Clicked="grafMult_Clicked"/>
+        <Button Text="Fragments" Clicked="fragm_Clicked"/>
+        <Button Text="Action Bars" Clicked="ActionB_Clicked"/>
+        <Button Text="Tabs menús" Clicked="tabsM_Clicked"/>
+
+        <Frame BorderColor="#CCCCCC"
+               Padding="10"
+               IsVisible="False"
+               x:Name="fragmentFrame">
+            <StackLayout x:Name="fragmentContainer" />
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="animacion.PaginaAction"
+              BackgroundColor="LightGray"
+             Title="Action Bars 2 ">
+
+
+    <StackLayout Padding="20" Spacing="20">
+        <!-- Contenido de la otra página -->
+        <Label Text="¡Hola!" 
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand" 
+               FontSize="60" 
+               TextColor="Magenta"/>
+
+        <Image x:Name="animatedImage" 
+               Source="gato.png"
+               Aspect="AspectFit"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               HeightRequest="200"
+               WidthRequest="200" />
+
+        <Entry x:Name="entryNombre"
+               Placeholder="Ingrese su nombre"
+               HorizontalOptions="FillAndExpand"
+               PlaceholderColor="Black"
+               FontSize="18"
+               Keyboard="Text"
+               TextColor="DarkMagenta"
+               BackgroundColor="#F4F4F4"
+               Margin="0,0,0,10" />
+
+        <Button Text="Enviar"
+                Clicked="ButtonEnviar_Clicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                FontSize="18"
+                WidthRequest="150"
+                HeightRequest="50" />
+    </StackLayout>
+
+</ContentPage>

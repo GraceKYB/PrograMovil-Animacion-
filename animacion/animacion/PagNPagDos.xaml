@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="animacion.PagNPagDos"
+             BackgroundColor="LightGray"
+             Title="Navegacion a una nueva pagina">
+
+
+    <StackLayout Padding="20" VerticalOptions="CenterAndExpand">
+
+        <Image x:Name="animatedImage"
+       Source="gatoo.png"
+       HorizontalOptions="Center"
+       VerticalOptions="CenterAndExpand"
+       WidthRequest="200"
+       HeightRequest="200"
+       Margin="0,20,0,0" />
+        
+        <Label Text="¡Bienvenido a la Nueva Página!" 
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand"
+               FontSize="24"
+               FontAttributes="Bold"
+               TextColor="DarkGreen" />
+
+        <Button Text="Regresar a la Página Anterior"
+                Clicked="Regresar_Clicked"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                FontSize="18"
+                WidthRequest="250"
+                HeightRequest="50"
+                Margin="0,20,0,0" />
+    </StackLayout>
+
+</ContentPage>

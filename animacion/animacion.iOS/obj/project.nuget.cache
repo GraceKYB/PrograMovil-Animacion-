@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y9g3wMTCWN6+ykVLMnbC60BgrFz5s2cMaakFMsmjYO1pCPW7uqNXXiVPmOwpZQIkNBH9UKqfpDMLCvgfQfYwWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Grace\\source\\repos\\animacion\\animacion\\animacion.iOS\\animacion.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Grace\\.nuget\\packages\\oxyplot.core\\2.1.0\\oxyplot.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\Grace\\.nuget\\packages\\oxyplot.xamarin.forms\\2.1.0\\oxyplot.xamarin.forms.2.1.0.nupkg.sha512",
+    "C:\\Users\\Grace\\.nuget\\packages\\rg.plugins.popup\\2.0.0\\rg.plugins.popup.2.0.0.nupkg.sha512",
+    "C:\\Users\\Grace\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Grace\\.nuget\\packages\\xam.plugin.simpleaudioplayer\\1.6.0\\xam.plugin.simpleaudioplayer.1.6.0.nupkg.sha512",
+    "C:\\Users\\Grace\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Grace\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
